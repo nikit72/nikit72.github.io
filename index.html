@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="index.js">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,500|Hind:700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,24 +19,28 @@
 <body>
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-light navbar-align-right" id="myTopnav">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light navbar-align-right" id="myTopnav">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#ux">UX Design</a>
-            <li class="nav-item">
-                <a class="nav-link" href="visuals.html">Visuals</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" target="_blank" href="Resume.pdf">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="About.html">About</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#ux">UX Design</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="visuals.html">Visuals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="Resume.pdf">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+            </ul>
     </nav>
 
     <!-- Intro -->
@@ -45,10 +49,11 @@
             <div class="col-sm-5" style="position: relative">
                 <h1 class="animated fadeInDown"><b>HELLO,<br />
                         I'M NIKI!</b></h1>
-                <h4 class="animated fadeIn delay-1s">Explorer. Change maker. Designer. Dog lover.</h4>
-                <p class="animated fadeIn delay-2s">Applying the intersections of my passions & striving to create
-                    social impact through human centered design. </p>
-                <img class="img-fluid mx-auto d-block animated fadeInLeft delay-2s " ID="dog" src="images/dog.png"
+                <h4 class="animated fadeIn delay-1s">Changemaker. Designer. Dog lover.</h4>
+                <p class="animated fadeIn delay-2s">Let's create fun experiences & positive social impact through human
+                    centered design!
+                </p>
+                <img class="img mx-auto d-block animated fadeInLeft delay-2s " ID="dog" src="images/dog.png"
                     style="position: relative; height: 13vw;" />
             </div>
             <div class="col-sm-7" style="position: relative">
@@ -72,11 +77,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='House.html'">
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='diabeatit.html'">
             <div class="hovereffect">
-                <img class="img-fluid" src="images/hscard.png" alt="">
+                <img class="img-fluid" src="images/dbcard.png" alt="">
                 <div class="overlay">
-                    <h3>Housing Help</h3>
+                    <h3>Diabeatit</h3>
                     <p>Suppport for a homeless day center.</p>
                 </div>
             </div>
@@ -93,6 +98,15 @@
     </div>
 
     <div class="row no-gutters">
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='House.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/hscard.png" alt="">
+                <div class="overlay">
+                    <h3>Housing Help</h3>
+                    <p>Suppport for a homeless day center.</p>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='PAL.html'">
             <div class="hovereffect">
                 <img class="img-fluid" src="images/ppcard.png" alt="">
@@ -111,15 +125,6 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Care.html'">
-            <div class="hovereffect">
-                <img class="img-fluid" src="images/alzcard.png" alt="">
-                <div class="overlay">
-                    <h3>Caregiver Care</h3>
-                    <p>Aiding Alzheimer's caregivers.</p>
-                </div>
-            </div>
-        </div>
     </div>
 
 
@@ -127,30 +132,33 @@
     <div class="jumbotron">
 
         <div class="row">
+            <div class="col-sm-1">
+            </div>
             <div class="col-sm-5">
                 <img class="img-fluid" src="images/view.jpg" style="position: relative" id="view" />
 
 
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-5" id="mob">
                 <h2><b>MORE TO SEE!</b></h2>
                 <p>
-                    I'm a designer and a Cognitive Science major specializing in Human-Computer Interaction at UC San
-                    Diego.
+                    I'm a designer and graduate of the University of California, San Diego, UCSD for short. With a degree
+                    in Cognitive Science: Human Computer Interaction, I bring the interdisciplinary study of cognitive
+                    behavior and interactions as I rework problems into opportunities.
                 </p>
                 <p>
-                    Whether designing for fun or with a bigger goal in mind, I hope to create environments that are
-                    accesible to all who need it. I believe design can have a big impact on our lives, and through
-                    empathy and attention to stories, I want the experiences I create to celebrate people and be
-                    for social good.
+                    I believe design has a big impact on our lives, and through <b>research backed decisions and
+                        attention to people's experiences,</b> I strive to create <b>socially good solutions</b> no
+                    matter the challenge.
                 </p>
-                <p>I'd love to hear from you as well! Feel free to chat with me at <u><a
-                            href="mailto:niki.tran72@gmail.com" style="color:#56c1c3"
-                            target="_blank">niki.tran72@gmail.com</a>.<br></u> </p>
+                <p>When I'm not designing, you can find me dancing, drawing, playing DnD, and exploring nature! I'd love
+                    to hear from you as well! Feel free to chat with me at <u><a href="mailto:niki.tran72@gmail.com"
+                            style="color:#56c1c3" target="_blank">niki.tran72@gmail.com</a>.<br></u> </p>
                 <button type="button" class="btn btn-outline-dark" target="_blank"
                     onclick="location.href = 'Resume.pdf'">RESUME</button>
             </div>
-
+            <div class="col-sm-1">
+            </div>
         </div>
     </div>
     </div>

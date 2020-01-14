@@ -18,9 +18,13 @@ html {
     }
 
   @media screen and (max-width: 768px) {
-      body { padding-top: 0px; }
+      body { padding-top: 40px; }
+      #mob { padding-top: 20px; }
+      #ux { padding-top: 0 px;}
+
+
   }
-  
+
   .jumbotron {
     background-color: #fafafa;
 
@@ -70,7 +74,7 @@ html {
   #intro {
     left:0px;
     top:0px;
-    // filter: drop-shadow(5px 5px 5px #9dd3db);
+    position: absolute;
 }
 
 #intro2 {

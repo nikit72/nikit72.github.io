@@ -18,24 +18,28 @@
 <body>
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-light navbar-align-right" id="myTopnav">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light navbar-align-right" id="myTopnav">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <!-- Links -->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#ux">UX Design</a>
-            <li class="nav-item">
-                <a class="nav-link" href="visuals.html">Visuals</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" target="_blank" href="Resume.pdf">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="About.html">About</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#ux">UX Design</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="visuals.html">Visuals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="Resume.pdf">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+            </ul>
     </nav>
 
     <!-- Process -->
@@ -231,66 +235,65 @@
                 </p>
             </div>
         </div>
+    </div>
+    <!-- Banners -->
 
-
-        <!-- Banners -->
-
-        <div class="row no-gutters" id="ux">
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Lab.html'">
-                <div class="hovereffect">
-                    <img class="img-responsive" src="images/labcard.png" alt="">
-                    <div class="overlay">
-                        <h3>The LAB</h3>
-                        <p>Like a chem lab, but for DANCE.</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='House.html'">
-                <div class="hovereffect">
-                    <img class="img-fluid" src="images/hscard.png" alt="">
-                    <div class="overlay">
-                        <h3>Housing Help</h3>
-                        <p>Suppport for a homeless day center.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Sprout.html'">
-                <div class="hovereffect">
-                    <img class="img-fluid" src="images/spcard.png" alt="">
-                    <div class="overlay">
-                        <h3>Sprout</h3>
-                        <p>Sprout ideas with us!</a></p>
-                    </div>
+    <div class="row no-gutters" id="ux">
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Lab.html'">
+            <div class="hovereffect">
+                <img class="img-responsive" src="images/labcard.png" alt="">
+                <div class="overlay">
+                    <h3>The LAB</h3>
+                    <p>Like a chem lab, but for DANCE.</a></p>
                 </div>
             </div>
         </div>
-
-        <div class="row no-gutters">
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='PAL.html'">
-                <div class="hovereffect">
-                    <img class="img-fluid" src="images/ppcard.png" alt="">
-                    <div class="overlay">
-                        <h3>PAL Tutor Site</h3>
-                        <p>Sustaining the work of tutors.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Ripple.html'">
-                <div class="hovereffect">
-                    <img class="img-fluid" src="images/ripcard.png" alt="">
-                    <div class="overlay">
-                        <h3>Ripple</h3>
-                        <p>Start a ripple in your life.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Care.html'">
-                <div class="hovereffect">
-                    <img class="img-fluid" src="images/alzcard.png" alt="">
-                    <div class="overlay">
-                        <h3>Caregiver Care</h3>
-                        <p>Aiding Alzheimer's caregivers.</p>
-                    </div>
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='diabeatit.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/dbcard.png" alt="">
+                <div class="overlay">
+                    <h3>Diabeatit</h3>
+                    <p>Suppport for a homeless day center.</p>
                 </div>
             </div>
         </div>
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Sprout.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/spcard.png" alt="">
+                <div class="overlay">
+                    <h3>Sprout</h3>
+                    <p>Sprout ideas with us!</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='House.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/hscard.png" alt="">
+                <div class="overlay">
+                    <h3>Housing Help</h3>
+                    <p>Suppport for a homeless day center.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Ripple.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/ppcard.png" alt="">
+                <div class="overlay">
+                    <h3>PAL Tutor Site</h3>
+                    <p>Sustaining the work of tutors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Ripple.html'">
+            <div class="hovereffect">
+                <img class="img-fluid" src="images/ripcard.png" alt="">
+                <div class="overlay">
+                    <h3>Ripple</h3>
+                    <p>Start a ripple in your life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
