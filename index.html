@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Heebo:300,500|Hind:700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
@@ -42,28 +43,34 @@
             </ul>
     </nav>
 
-<!-- PAGE CONTENT -->
+    <!-- PAGE CONTENT -->
 
     <!-- Intro -->
     <div class="jumbotron">
-        <div class="row no-gutters">
-            <div class="col-sm-5" style="position: relative">
-                <h1 class="animated fadeInDown"><b>HELLO,<br />
-                        I'M NIKI!</b></h1>
+        <div class="row no-gutters" id="mebg">
+            <img src="images/mebg2.png" style="visibility: hidden;" />
+                 <div class="col-sm-5">
+
+                <h1 class="animated fadeInDown"><b>Hello,<br />
+                        I'm Niki!</b></h1>
                 <h4 class="animated fadeIn delay-1s">Changemaker. Designer. Dog lover.</h4>
-                <p class="animated fadeIn delay-2s">Let's create fun experiences & positive social impact through human
+                <p class="animated fadeIn delay-2s">Let's create fun experiences & positive social impact through
+                    human
                     centered design!
                 </p>
+            </div>
+            <!--
                 <img class="img mx-auto d-block animated fadeInLeft delay-2s " ID="dog" src="images/dog.png"
                     style="position: relative; height: 13vw;" />
             </div>
             <div class="col-sm-7" style="position: relative">
                 <img class="img-fluid mx-auto d-block animated fadeInDown" ID="intro" src="images/me1.png"
-                    style="position: relative" />
+                     />
                 <img class="img-fluid mx-auto d-block animated fadeIn delay-2s" ID="intro2" src="images/me2.png"
                     style="position: absolute" />
-            </div>
-        </div id="ux">
+            </div> -->
+
+        </div>
     </div>
 
     <!-- Banners -->
@@ -135,15 +142,16 @@
         <div class="row">
             <div class="col-sm-1">
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-5">
                 <img class="img-fluid" src="images/view.jpg" style="position: relative" id="view" />
 
 
             </div>
-            <div class="col-sm-5" id="mob">
-                <h2><b>MORE TO SEE!</b></h2>
+            <div class="col-md-5" id="mob">
+                <h2><b>More to see!</b></h2>
                 <p>
-                    I'm a designer and graduate of the University of California, San Diego, UCSD for short. With a degree
+                    I'm a designer and graduate of the University of California, San Diego, UCSD for short. With a
+                    degree
                     in Cognitive Science: Human Computer Interaction, I bring the interdisciplinary study of cognitive
                     behavior and interactions as I rework problems into opportunities.
                 </p>
@@ -154,7 +162,7 @@
                 </p>
                 <p>When I'm not designing, you can find me dancing, drawing, playing DnD, and exploring nature! I'd love
                     to hear from you as well! Feel free to chat with me at <u><a href="mailto:niki.tran72@gmail.com"
-                            style="color:#56c1c3" target="_blank">niki.tran72@gmail.com</a>.<br></u> </p>
+                            target="_blank">niki.tran72@gmail.com</a>.<br></u> </p>
                 <button type="button" class="btn btn-outline-dark" target="_blank"
                     onclick="location.href = 'Resume.pdf'">RESUME</button>
             </div>
