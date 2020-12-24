@@ -49,38 +49,29 @@
     <div class="jumbotron">
         <div class="row no-gutters" id="mebg">
             <img src="images/mebg2.png" style="visibility: hidden;" />
-                 <div class="col-sm-5">
-
+            <!-- Fade In -->
+            <div class="img-fluid mx-auto d-block animated fadeIn delay-2s" id="mebg2"></div>
+            <div class="img-fluid mx-auto d-block animated fadeIn delay-2s" id="mebg3"></div>
+            <div class="col-sm-5">
                 <h1 class="animated fadeInDown"><b>Hello,<br />
                         I'm Niki!</b></h1>
-                <h4 class="animated fadeIn delay-1s">Changemaker. Designer. Dog lover.</h4>
+                <h3 class="animated fadeIn delay-1s">Changemaker. Designer. Dog lover.</h3>
                 <p class="animated fadeIn delay-2s">Let's create fun experiences & positive social impact through
                     human
                     centered design!
                 </p>
             </div>
-            <!--
-                <img class="img mx-auto d-block animated fadeInLeft delay-2s " ID="dog" src="images/dog.png"
-                    style="position: relative; height: 13vw;" />
-            </div>
-            <div class="col-sm-7" style="position: relative">
-                <img class="img-fluid mx-auto d-block animated fadeInDown" ID="intro" src="images/me1.png"
-                     />
-                <img class="img-fluid mx-auto d-block animated fadeIn delay-2s" ID="intro2" src="images/me2.png"
-                    style="position: absolute" />
-            </div> -->
-
         </div>
     </div>
 
-    <!-- Banners -->
+    <!-- Cards -->
 
     <div class="row no-gutters" id="ux">
         <div class="col-sm-4 animated fadeIn" id="card" onclick="window.location.href='Lab.html'">
             <div class="hovereffect">
                 <img class="img-responsive" src="images/labcard.png" alt="">
                 <div class="overlay">
-                    <h3>The LAB</h3>
+                    <h4>The LAB</h4>
                     <p>Like a chem lab, but for DANCE.</a></p>
                 </div>
             </div>
@@ -89,7 +80,7 @@
             <div class="hovereffect">
                 <img class="img-fluid" src="images/dbcard.png" alt="">
                 <div class="overlay">
-                    <h3>Diabeatit</h3>
+                    <h4>Diabeatit</h4>
                     <p>Preventing diabetes for kids.</p>
                 </div>
             </div>
@@ -98,7 +89,7 @@
             <div class="hovereffect">
                 <img class="img-fluid" src="images/spcard.png" alt="">
                 <div class="overlay">
-                    <h3>Sprout</h3>
+                    <h4>Sprout</h4>
                     <p>Sprout ideas with us!</a></p>
                 </div>
             </div>
@@ -110,7 +101,7 @@
             <div class="hovereffect">
                 <img class="img-fluid" src="images/hscard.png" alt="">
                 <div class="overlay">
-                    <h3>Housing Help</h3>
+                    <h4>Housing Help</h4>
                     <p>Suppport for a homeless day center.</p>
                 </div>
             </div>
@@ -119,7 +110,7 @@
             <div class="hovereffect">
                 <img class="img-fluid" src="images/ppcard.png" alt="">
                 <div class="overlay">
-                    <h3>PAL Tutor Site</h3>
+                    <h4>PAL Tutor Site</h4>
                     <p>Sustaining the work of tutors.</p>
                 </div>
             </div>
@@ -128,7 +119,7 @@
             <div class="hovereffect">
                 <img class="img-fluid" src="images/ripcard.png" alt="">
                 <div class="overlay">
-                    <h3>Ripple</h3>
+                    <h4>Ripple</h4>
                     <p>Start a ripple in your life.</p>
                 </div>
             </div>
@@ -137,23 +128,16 @@
 
 
     <!-- About Me -->
-    <div class="jumbotron">
+
+    <div class="about">
 
         <div class="row">
-            <div class="col-sm-1">
-            </div>
-            <div class="col-md-5">
-                <img class="img-fluid" src="images/view.jpg" style="position: relative" id="view" />
-
-
-            </div>
-            <div class="col-md-5" id="mob">
+            <div class="col-md-6 order-md-2" id="mob">
                 <h2><b>More to see!</b></h2>
                 <p>
                     I'm a designer and graduate of the University of California, San Diego, UCSD for short. With a
-                    degree
-                    in Cognitive Science: Human Computer Interaction, I bring the interdisciplinary study of cognitive
-                    behavior and interactions as I rework problems into opportunities.
+                    degree in Cognitive Science: Human Computer Interaction, I bring the interdisciplinary study of
+                    cognitive behavior and interactions as I rework problems into opportunities.
                 </p>
                 <p>
                     I believe design has a big impact on our lives, and through <b>research backed decisions and
@@ -166,9 +150,20 @@
                 <button type="button" class="btn btn-outline-dark" target="_blank"
                     onclick="location.href = 'Resume.pdf'">RESUME</button>
             </div>
-            <div class="col-sm-1">
+            <div class="col-md-6 order-md-1" id="view">
+                <img class="img-fluid" src="images/view.jpg" />
             </div>
         </div>
     </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div id="footnote">
+            <p><a href="mailto:niki.tran72@gmail.com" target="_blank">Email</a> | <a href="Resume.pdf"
+                    target="_blank">Resume</a> <span style="float: right;">Designed and developed with <span
+                        style="color: #e7006f"> &hearts;</span> by Niki Tran</span></p>
+        </div>
     </div>
 </body>
