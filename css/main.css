@@ -27,7 +27,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.footer > p{
+.footer>p {
   background-color: rgb(255, 255, 255);
   text-align: center;
   vertical-align: middle;
@@ -38,31 +38,27 @@ body {
   padding-bottom: 0;
 }
 
-#mebg1 {
+#mebgholder {
   position: relative;
   background: no-repeat url(../images/mebg1.png) 50% / 100%;
 }
 
-#mebg1 > img{
+#mebgholder>img {
   vertical-align: top;
-  width: 100%; 
-  opacity: 0; 
+  width: 100%;
+  opacity: 0;
 }
 
-#mebg1 > div{
+#mebgholder>div {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
 }
 
-#mebg2 {
+#mebglg {
   position: absolute;
   background: no-repeat url(../images/mebg2.png) 50% / 100%;
-}
-
-#memob {
-  display: none;
 }
 
 .about {
@@ -109,15 +105,14 @@ p {
 
 a {
   color: #e7006f;
-} 
+}
 
 b {
   font-weight: 700;
 }
 
-
-
 /* Case Study */
+
 #title {
   padding-top: 2vw;
 }
@@ -151,18 +146,16 @@ th {
   padding: 16px;
 }
 
-
-
 /* Screen Size */
 
 @media screen and (max-width: 768px) {
-  #mebg1 {
+  #mebgholder {
     background: no-repeat url(../images/mebg1.png) 50% / 100%;
   }
-  #mebg2 {
+  #mebglg {
     background-image: none;
   }
-  #mebg3 {
+  #mebgmd {
     position: absolute;
     background: no-repeat url(../images/mebg3.png) 50% / 100%;
   }
@@ -178,22 +171,81 @@ th {
     margin: auto;
     width: 80%;
   }
-  h1 {font-size: 36px;}
-  h2 {font-size: 32px;}
-  h3 {font-size: 20px;}
-  h4 {font-size: 20px;}
-  p {font-size: 16px;}
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  #mebgsm {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
-  #footnote {text-align: center;}
-  #mebg1, #mebg2, #mebg3 {
+  #footnote {
+    text-align: center;
+  }
+  #mebgholder {
+    display: none;
+  }
+  #columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+
+  #columns > h1 {
+    vertical-align: text-bottom
+  }
+
+  #intro {
+    right: 0px;
+    top: 0px;
+  }
+  #intro2 {
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+  }
+  /*
+  #mebgholder > div {
+    position: relative;
+  }
+  #mebgholder > img{
+    display: none;
+  }
+  #mebgholder, #mebglg,  {
     background-image: none;
   }
 
-} 
-
-
+  #mebgsm {
+    display: block;
+    position: relative;
+  }
+  #smintro1 {
+    position: relative;
+  }
+  
+  #smintro2 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    }
+*/
+}
 
 /* Banners */
 
@@ -201,7 +253,7 @@ th {
   padding-top: 0px;
 }
 
-.overlay > h4 {
+.overlay>h4 {
   color: #ffffff;
   font-weight: 500;
 }
@@ -245,8 +297,6 @@ th {
   transform: translate3d(-40px, 0, 0);
 }
 
-
-
 .hovereffect a, .hovereffect p {
   color: #ffffff;
   opacity: 0;
@@ -275,5 +325,3 @@ th {
   width: 100%;
   height: 100%;
 }
-
-
