@@ -201,25 +201,22 @@ th {
   #mebgholder {
     display: none;
   }
-  #columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
 
-  #columns > h1 {
-    vertical-align: text-bottom
-  }
-
-  #intro {
-    right: 0px;
-    top: 0px;
-  }
   #intro2 {
     right: 0px;
     top: 0px;
     z-index: 1;
   }
+
+h1 {
+  font-size: 14vw;
+  margin-top: 10px;
+}
+h3 {
+  font-size: 7vw;
+  margin-top: 0px;
+}
+
   /*
   #mebgholder > div {
     position: relative;
