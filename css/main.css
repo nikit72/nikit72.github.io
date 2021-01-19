@@ -132,6 +132,7 @@ table, th, td {
 
 td {
   padding: 16px 16px 16px 0px;
+  width: 30%;
   background-color: #edebeb;
   vertical-align: top;
   font-weight: 300;
