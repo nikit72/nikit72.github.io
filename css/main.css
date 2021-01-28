@@ -202,7 +202,7 @@ th {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 645px) {
   #footnote {
     text-align: center;
   }
