@@ -119,7 +119,6 @@ b {
 }
 
 #werk {
-
   padding: 0 15vw 2vw 15vw;
 }
 
@@ -130,6 +129,7 @@ b {
 #info {
   margin: auto;
 }
+
 #werk h3 {
   padding: 1em 0 1em 0;
 }
@@ -165,10 +165,9 @@ th {
 
 /* Screen Size */
 
-
-  #mebgsm {
-    display: none;
-  }
+#mebgsm {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   #mebgholder {
@@ -220,22 +219,32 @@ th {
   #mebgsm {
     display: block;
   }
-
   #intro2 {
     right: 0px;
     top: 0px;
     z-index: 1;
   }
+  h1 {
+    font-size: 14vw;
+    margin-top: 10px;
+  }
+  h3 {
+    font-size: 7vw;
+    margin-top: 0px;
+  }
 
-h1 {
-  font-size: 14vw;
-  margin-top: 10px;
-}
-h3 {
-  font-size: 7vw;
-  margin-top: 0px;
-}
+  p {
+    font-size: 14px;
+  }
 
+  #werk {
+    padding: 0 3vw 0 3vw !important;
+  }
+  .hovereffect .overlay {
+    padding: 1.5em !important;
+
+  }
+  
   /*
   #mebgholder > div {
     position: relative;
@@ -270,15 +279,14 @@ h3 {
   margin: 0 1vw 0 1vw;
 }
 
-
 .overlay>h4 {
   width: 40%;
 }
 
-.overlay >p {
+.overlay>p {
   width: 40%;
-
 }
+
 #card {
   padding: 0.5vw 0.5vw 0.5vw 0.5vw;
 }
@@ -334,7 +342,6 @@ h3 {
   width: 100%;
   height: 100%;
 }
-
 
 /* Cards 
 
